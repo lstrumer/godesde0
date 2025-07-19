@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
+	"runtime"
 )
 
 func main() {
-	fmt.Println("Hola, mundo!")
+	fmt.Println(runtime.GOOS)
 }
